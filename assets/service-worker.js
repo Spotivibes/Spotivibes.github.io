@@ -8,6 +8,17 @@ self.addEventListener("push", e => {
             icon: data.icon, 
             image: data.image,
             badge: data.badge,
+            tag: data.tag,
+            dir: data.dir,
+            lang: data.lang,
+            actions: data.actions,
+            data: data.data,
+            requireInteraction: data.requireInteraction,
+            vibrate: data.vibrate,
+            renotify: data.renotify,
+            silent: data.silent,
+            sound: data.sound,
+            timestamp: data.timestamp,
         }
     );
 });
